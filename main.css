@@ -1,0 +1,108 @@
+body { 
+	padding-top: 60px; 
+	padding-bottom: 10px;
+}
+
+/* Navbar custom CSS for a transparent, fixed navbar */ 
+
+
+.nav {
+	list-style: none;
+	background: none;
+	border: none;
+	padding: 1em 0;
+	color: #E9CFEC;
+	border: none;
+}
+
+.navbar {
+	background: none;
+	border: none;
+}
+
+
+/*.nav li {
+	float: left;
+	display: inline;
+}*/
+
+.navbar-inverse {
+	background: none;
+	color: #E9CFEC;
+}
+
+.nav a {
+	display: block;
+	text-align:center;
+	width: 150px; /* fixed width */
+	text-decoration:none; 
+	color: #E9CFEC;
+	font-size: 20px;
+	padding-top: 10px;
+}
+
+.navbar-header a {
+	color: #E9CFEC;
+	font-style: bold;
+	font-size: 28px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.highlight {
+	color: #737CA1;
+	font-weight: bold;
+}
+
+.navbar-brand h1 {
+	padding-bottom: 40px;
+	font-style: bold;
+}
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+}
+
+/* Carousel custom CSS for a full stretched picture gallery across the page */
+
+.carousel {
+	background: 100%;
+	position: relative;
+	margin-bottom: 10px;
+	/*line-height:1;*/
+   /*top:0;
+   left:0;*/
+   /*min-width:100%;
+   min-height: 500px;
+   max-height: 800px; 
+   margin-top: none;
+   padding-top: none;*/
+}
+
+./*carousel-inner {
+	height: 600px;
+}*/
+
+.carousel-slide img {
+	width: 100%;
+	min-height: 500px;
+	max-height: 800px;
+	margin-top: none;
+  	padding-top: none;
+  	height: auto;
+}
+
+.container-main {
+	margin-top: none;
+}
+
+
+
